@@ -1,5 +1,6 @@
 import React from 'react';
 
+import CoreysFace from '../assets/CoreysFace.jpeg';
 import MainNavigation, {
   NavImg,
   MainNavigationLogoLink,
@@ -12,7 +13,7 @@ const Navbar = () => {
     <>
       <MainNavigation>
         <MainNavigationLogoLink>
-          <NavImg src="../../public/assets/IMG_2697.jpeg" alt="Coreys face" />
+          <NavImg src={CoreysFace} alt="Coreys face" />
         </MainNavigationLogoLink>
         <MainNavigationItem>
           <MainNavigationLink>
