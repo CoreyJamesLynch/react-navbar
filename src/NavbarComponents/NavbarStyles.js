@@ -13,6 +13,7 @@ const NavImg = styled.img`
   height: 40px;
   width: 40px;
   border-radius: 25px;
+  margin: auto;
 `;
 
 const MainNavigationLogoLink = styled.a`
